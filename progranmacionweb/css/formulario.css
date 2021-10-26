@@ -2,8 +2,8 @@ body{
     background: url(../img/loginFondo.jpg) no-repeat center top;
     background-size: cover;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    height: 100vh;
-    font-size: 70%;
+    height:auto;
+    font-size: 100%;
     
 }
 
@@ -20,11 +20,9 @@ h1{
     
 
 form{
-   border: 50px ;
+   font-size: 20px;
+    border: 50px ;
     width: 250px;
-    background-color: black;
-    
-;
     
 }
 
