@@ -1,8 +1,7 @@
 body{  
     background: url(../img/loginFondo.jpg) no-repeat center  center fixed;
     background-size:cover ;
-   
-    
+
 }
 
 .Logo{
@@ -15,9 +14,9 @@ h1{
     color: white
 }
   
-    h2{
-        color: white;
-    }
+h2{
+     color: white;
+ }
 
 form{
 
@@ -32,8 +31,7 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 label,p{
@@ -42,4 +40,3 @@ label,p{
 .REGISTRARSE{
     border: 5px groove;  
 }
-.button{submit
