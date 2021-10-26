@@ -1,14 +1,27 @@
 body{
-    background-color: rgb(224, 181, 181);
+    background-color: rgb(255, 255, 255);
 }
 p{
-    color:darkred;
+    color:rgb(15, 15, 15);
 }
-
-
+.primerseccion{
+background-color: rgb(8, 8, 8);
+}
+#enlaceuno{
+    color: rgb(252, 252, 252);
+}
+.menu{
+    color: rgb(12, 12, 12);
+    background-color: rgb(252, 252, 252);
+}
+.segundaseccion{
+    background-color: rgb(252, 252, 252);
+    color: rgb(8, 8, 8);
+}
 .Logo { 
-    width: 110px;
-    height: 110px;
+    width: 90px;
+    height: 90px;
+    background-color: rgb(12, 12, 12);
 }    
 .imagenes{
     width: 50px ;
@@ -23,9 +36,10 @@ p{
 h1, h2, h3, h4{
     text-align: center;
 }
-
 #primertitulo{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(12, 12, 12);
+    background-color: rgb(253, 251, 251);
     font-weight: bold;
     /*font-size: 1em;*/
 }
@@ -33,10 +47,17 @@ p{
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 .H3 { 
-    background-color: #D6D2C4
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(253, 253, 253);
+    background-color: #d30d0d;
 }
 
+
 .pie {
-    background-color: #eeb1af 
+    background-color: #0a0a0a 
+}
+#ultimotitulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(252, 252, 252);
 }
 
