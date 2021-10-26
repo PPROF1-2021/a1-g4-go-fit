@@ -1,9 +1,7 @@
 body{  
-    background: url(../img/loginFondo.jpg) no-repeat center top;
-    background-size: cover;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    height:auto;
-    font-size: 100%;
+    background: url(../img/loginFondo.jpg) no-repeat center  center fixed;
+    background-size:cover ;
+   
     
 }
 
@@ -14,15 +12,27 @@ body{
     top: 50px;
 }
 h1{
- background-color:darkred;
+    color: white
 }
   
-    
+    h2{
+        color: white;
+    }
 
 form{
-   font-size: 20px;
-    border: 50px ;
-    width: 250px;
+
+  background: rgba(0,-0,-0,-.1);
+  border-radius:10px;
+    padding:35px;
+    box-shadow: 0 0 30px rgba(0,-0,-0,-0.568);
+    color:white;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -32,3 +42,4 @@ label,p{
 .REGISTRARSE{
     border: 5px groove;  
 }
+.button{submit
