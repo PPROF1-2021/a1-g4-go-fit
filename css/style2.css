@@ -39,9 +39,9 @@ nav ul li{
 display:inline-block;
 }
 nav ul li a{
-color:linen;
+color:rgb(250, 247, 243);
 display:block;
 justify-content:space-evenly;
-padding: 0px 20px;
+padding: 0px 30px;
 text-decoration:none;
 }
