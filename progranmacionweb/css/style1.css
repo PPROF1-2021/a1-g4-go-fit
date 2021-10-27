@@ -1,3 +1,4 @@
+*{margin: 0%;}
 body{
     background-color: rgb(255, 255, 255);
 }
@@ -8,15 +9,94 @@ p{
 background-color: rgb(8, 8, 8);
 }
 #enlaceuno{
+    font-family: "Mavenpro";
     color: rgb(252, 252, 252);
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
 }
 .menu{
-    color: rgb(12, 12, 12);
+    font-family: "Mavenpro";
+}
+nav:hover{ background-color:brown;
+}
+nav:active{
+    color:lightpink;
+    font: size 30px;;
+}
+nav ul{
+list-style:none;
+margin:0;
+padding:o;
+}
+nav ul li{
+display:inline-block;
+}
+nav ul li a{
+color:linen;
+display:block;
+justify-content:space-evenly;
+padding: 0px 20px;
+text-decoration:none;
+}
+
+
+.fondodos{
+    background-color: snow;
+}
+#segundotitulo{
+    font-family: "Mavenpro";
+    font-size: 1,5em;
+    font-weight: bold;
+    background-color: rgb(252, 253, 253);
+   
+}
+#parrafouno{
+    font-family: "Mavenpro";
+    font-weight: bold;
+    background-color: rgb(252, 253, 253);
+    
+}
+#parrafodos{
+    font-family: "Mavenpro";
+    font-weight: bold;
+}
+#parrafotres{
+    font-family: "Mavenpro";
+    font-weight: bold;
+}
+#quehacer{
+    background-color: rgb(252, 253, 253);
+}
+#parrafocuatro{
+    font-family: "Mavenpro";
+    color: rgb(252, 252, 252);
+    background-color: rgb(250, 20, 20);
+    font-size: 1em;
+    font-weight: bold;
+}
+#parrafocinco{
+    font-family: "Mavenpro";
+    color: rgb(8, 8, 8);
     background-color: rgb(252, 252, 252);
 }
+
+#parrafoseis{
+    font-family: "Mavenpro";
+    color: rgb(252, 252, 252);
+    font-size: 1,5em;
+    font-weight: bold;
+}
+#enlaceaca{
+    font-family: "Mavenpro";
+    color: rgb(250, 20, 20);
+    font-weight: bold;
+}
 .segundaseccion{
-    background-color: rgb(252, 252, 252);
+    background-image: url(/progranmacionweb/img/fondodos.jpg); 
+    background-size: cover;
     color: rgb(8, 8, 8);
+    background-color: rgba(rgb(253, 251, 251) 0,0, rgb(239, 239, 245) 0, alpha);
 }
 .Logo { 
     width: 90px;
@@ -37,27 +117,45 @@ h1, h2, h3, h4{
     text-align: center;
 }
 #primertitulo{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Mavenpro";
     color: rgb(12, 12, 12);
     background-color: rgb(253, 251, 251);
     font-weight: bold;
+    font: 4em;
     /*font-size: 1em;*/
 }
 p{
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: "Mavenpro"
 }
 .H3 { 
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(253, 253, 253);
-    background-color: #d30d0d;
+    background-color:  rgb(250, 249, 249);
 }
-
+#contactanos{
+    font-family: "Mavenpro" ;
+    font-size: 2em;
+    color: rgb(5, 5, 5);
+    font-weight: bold;
+}
 
 .pie {
     background-color: #0a0a0a 
 }
 #ultimotitulo{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Mavenpro";
     color: rgb(252, 252, 252);
 }
-
+#email{
+    font-family: "Mavenpro";
+    color: black;
+}
+#tel{
+    font-family: "Mavenpro";
+    color: black;}
+#web{
+    font-family: "Mavenpro";
+    color: black;
+}
+@font-face{
+    font-family:"Mavenpro";
+    src: url(MavenPro.ttf);
+}
