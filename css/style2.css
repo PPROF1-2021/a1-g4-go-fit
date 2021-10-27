@@ -1,0 +1,47 @@
+h1{
+    color:brown;
+}
+h2{
+    color:brown;
+}
+body{
+    background-color: darksalmon;
+}
+h1, h2, h3, h4{
+    text-align: center;
+}
+p{
+    color:black;
+}
+img {
+    width:60px;
+    height:60px;
+}
+h3{
+    color:brown;
+}
+
+nav{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav:hover{ background-color:brown;
+}
+nav:active{
+    color:lightpink;
+    font: size 30px;;
+}
+nav ul{
+list-style:none;
+margin:0;
+padding:o;
+}
+nav ul li{
+display:inline-block;
+}
+nav ul li a{
+color:linen;
+display:block;
+justify-content:space-evenly;
+padding: 0px 20px;
+text-decoration:none;
+}

@@ -1,0 +1,36 @@
+body{  
+    background: url(../img/loginFondo.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100vh;
+    font-size: 70%;
+    
+}
+
+.Logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    top: 50px;
+}
+h1{
+ background-color:darkred;
+}
+  
+    
+
+form{
+   border: 50px ;
+    width: 250px;
+    background-color: black;
+    
+;
+    
+}
+
+label,p{
+    color: white;
+}
+.REGISTRARSE{
+    border: 5px groove;  
+}

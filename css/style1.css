@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(233, 202, 202);
+}
+p{
+    color:rgb(236, 6, 6);
+}
+
+
+.Logo { 
+    width: 210px;
+    height: 310px;
+}    
+.imagenes{
+    width: 50px ;
+    height: 50px;
+    background-color:  #e4b0ae
+}
+.entrenamiento {
+    width: 1000px ;
+    height: 350px;   
+}
+
+h1, h2, h3, h4{
+    text-align: center;
+}
+
+#primertitulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    /*font-size: 1em;*/
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.H3 { 
+    background-color: #D6D2C4
+}
+
+.pie {
+    background-color: #eeb1af 
+}
+
