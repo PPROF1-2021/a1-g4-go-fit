@@ -10,13 +10,13 @@ background-color: rgb(8, 8, 8);
 }
 #enlaceuno{
     font-family: "Mavenpro";
-    color: rgb(252, 252, 252);
+    color: rgb(5, 5, 5);
     font-weight: bold;
-    font-size: 1em;
+    font-size: 2em;
     text-align: center;
 }
 .menu{
-    font-family: "Mavenpro";
+    font-family: "Mavenpro";   
 }
 nav:hover{ background-color:brown;
 }
@@ -49,6 +49,7 @@ text-decoration:none;
     font-size: 1,5em;
     font-weight: bold;
     background-color: rgb(252, 253, 253);
+
    
 }
 #parrafouno{
@@ -113,6 +114,7 @@ text-decoration:none;
     height: 350px;   
 }
 
+
 h1, h2, h3, h4{
     text-align: center;
 }
@@ -128,7 +130,7 @@ p{
     font-family: "Mavenpro"
 }
 .H3 { 
-    background-color:  rgb(250, 249, 249);
+    background-color:  rgb(250, 20, 20);
 }
 #contactanos{
     font-family: "Mavenpro" ;
