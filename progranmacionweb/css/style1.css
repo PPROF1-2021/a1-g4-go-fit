@@ -1,21 +1,96 @@
-*{margin: 0%;}
+/**{margin: 0%;}*/
 body{
     background-color: rgb(255, 255, 255);
+    font-family:"Mavenpro";
+    src: url(MavenPro.ttf);
+    color: #333;
+    font-size: 1.2rem; 
+    line-height: 1.6em;
+    margin: 0;
 }
+h1 {
+    font-size: 2rem;
+    line-height: 1.3em;
+}
+h1, h2, h3, h4{
+    text-align: center;
+}
+
 p{
+    margin-bottom: 1.6em;
     color:rgb(15, 15, 15);
 }
-.primerseccion{
-background-color: rgb(8, 8, 8);
+.w3-container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+
 }
+
+
 #enlaceuno{
-    font-family: "Mavenpro";
+    
     color: rgb(5, 5, 5);
-    font-weight: bold;
+   /* font-weight: bold;*/
     font-size: 2em;
     text-align: center;
 }
-.menu{
+
+.header{
+    background: white;
+    color: #333;
+    
+    padding: 2rem 0;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+ .header a{
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.logo-nav-contanier{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navigation ul{
+
+   margin: 0;
+   padding: 0;
+   list-style: none;   
+}
+   .navigation ul li{
+    display: inline-block;
+ }
+    .navigation ul li a{
+        display: block;
+        padding: 0,5rem 1rem;
+        transition: all 0,4s linear;
+        border-radius: 2px;
+    } 
+      .navigation ul li a:hover{
+         background: #c5b4b4;
+     }
+
+.main{
+    padding-top: 12rem;
+}
+
+/*
+.primerseccion{
+background-color: rgb(8, 8, 8);
+}*/
+
+/*.menu{
     font-family: "Mavenpro";   
 }
 nav:hover{ background-color:brown;
@@ -110,21 +185,17 @@ text-decoration:none;
     background-color:  #e4b0ae
 }
 .entrenamiento {
-    width: 1000px ;
-    height: 350px;   
+   width: 1000px ;
+    height: 350;   
 }
-
-
-h1, h2, h3, h4{
-    text-align: center;
-}
+/*
 #primertitulo{
     font-family: "Mavenpro";
     color: rgb(12, 12, 12);
     background-color: rgb(253, 251, 251);
     font-weight: bold;
     font: 4em;
-    /*font-size: 1em;*/
+    /*font-size: 1em;
 }
 p{
     font-family: "Mavenpro"
@@ -137,15 +208,25 @@ p{
     font-size: 2em;
     color: rgb(5, 5, 5);
     font-weight: bold;
-}
+}*/
 
 .pie {
-    background-color: #0a0a0a 
+    font-family: "Mavenpro";
+    background-color: #0a0a0a;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 4rem;
+    
 }
+
 #ultimotitulo{
     font-family: "Mavenpro";
+    
     color: rgb(252, 252, 252);
 }
+
+
+/*
 #email{
     font-family: "Mavenpro";
     color: black;
