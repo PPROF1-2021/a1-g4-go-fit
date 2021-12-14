@@ -91,7 +91,7 @@ p{
  }
  
 .pie {
-    font-family: "Mavenpro";
+    font-family:"Mavenpro";
     background-color: #0a0a0a;
     padding: 4rem 0;
     text-align: center;
@@ -100,7 +100,7 @@ p{
 }
 
 #ultimotitulo{
-    font-family: "Mavenpro";
+    font-family:"Mavenpro";
     
     color: rgb(252, 252, 252);
 }
