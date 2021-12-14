@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/loginFondo.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100vh;
+}
+p{
+    margin-bottom: 1.6em;
+    color:white;
+}
