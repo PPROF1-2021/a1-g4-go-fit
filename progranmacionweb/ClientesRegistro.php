@@ -10,9 +10,8 @@
 </head>
 
 <body>
-    <P> <a href=" index.html>"> Regresar </a> </p>
-    <input type ="button" value="volver" onclick="pvolver();"> <br>
-    <input type="button" value="submit" id= "submit" onclick="paginaRedirect();"> <br>
+    <P> <a href=" index.html"> Regresar </a> </p>
+    
     <!--message-->
     <div id="mensaje"> </div>
     
