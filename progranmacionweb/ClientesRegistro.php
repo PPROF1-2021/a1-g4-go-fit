@@ -4,15 +4,14 @@
     <meta charset= "utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/cReg.css">
     <title>Datos de registro GoFit Centro de Entrenamiento online</title>
     
 </head>
 
 <body>
     <P> <a href=" index.html"> Regresar </a> </p>
-    <input type ="button" value="volver" onclick="pvolver();"> <br>
-    <input type="button" value="submit" id= "submit" onclick="paginaRedirect();"> <br>
+
     <!--message-->
     <div id="mensaje"> </div>
     
